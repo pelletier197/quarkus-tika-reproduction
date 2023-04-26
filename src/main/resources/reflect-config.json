@@ -9,9 +9,6 @@
   "name":"com.example.tika.Main$TikaApplication"
 },
 {
-  "name":"com.github.jaiimageio.impl.common.PackageUtil"
-},
-{
   "name":"com.sun.crypto.provider.AESCipher$General",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -120,20 +117,6 @@
   "name":"java.util.logging.Level"
 },
 {
-  "name":"javax.imageio.spi.ImageReaderSpi"
-},
-{
-  "name":"javax.imageio.spi.ImageReaderWriterSpi",
-  "methods":[
-    {"name":"getFileSuffixes","parameterTypes":[] }, 
-    {"name":"getFormatNames","parameterTypes":[] }, 
-    {"name":"getMIMETypes","parameterTypes":[] }
-  ]
-},
-{
-  "name":"javax.imageio.spi.ImageWriterSpi"
-},
-{
   "name":"org.apache.commons.compress.archivers.zip.AsiExtraField",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -190,22 +173,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"org.apache.jempbox.xmp.XMPSchemaBasic",
-  "methods":[{"name":"<init>","parameterTypes":["org.w3c.dom.Element","java.lang.String"] }]
-},
-{
-  "name":"org.apache.jempbox.xmp.XMPSchemaDublinCore",
-  "methods":[{"name":"<init>","parameterTypes":["org.w3c.dom.Element","java.lang.String"] }]
-},
-{
-  "name":"org.apache.jempbox.xmp.XMPSchemaMediaManagement",
-  "methods":[{"name":"<init>","parameterTypes":["org.w3c.dom.Element","java.lang.String"] }]
-},
-{
-  "name":"org.apache.jempbox.xmp.XMPSchemaPDF",
-  "methods":[{"name":"<init>","parameterTypes":["org.w3c.dom.Element","java.lang.String"] }]
-},
-{
   "name":"org.apache.logging.log4j.message.DefaultFlowMessageFactory",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -216,10 +183,6 @@
 {
   "name":"org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler",
   "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget",
-  "methods":[{"name":"getAction","parameterTypes":[] }]
 },
 {
   "name":"org.apache.tika.detect.apple.BPListDetector",
@@ -801,22 +764,6 @@
   ]
 },
 {
-  "name":"org.apache.xmlbeans.metadata.system.sXMLCONFIG.TypeSystemHolder",
-  "fields":[{"name":"typeSystem"}]
-},
-{
-  "name":"org.apache.xmlbeans.metadata.system.sXMLLANG.TypeSystemHolder",
-  "fields":[{"name":"typeSystem"}]
-},
-{
-  "name":"org.apache.xmlbeans.metadata.system.sXMLSCHEMA.TypeSystemHolder",
-  "fields":[{"name":"typeSystem"}]
-},
-{
-  "name":"org.apache.xmlbeans.metadata.system.sXMLTOOLS.TypeSystemHolder",
-  "fields":[{"name":"typeSystem"}]
-},
-{
   "name":"org.jboss.logmanager.ExtLogRecord",
   "methods":[{"name":"setMarker","parameterTypes":["java.lang.Object"] }]
 },
@@ -876,105 +823,6 @@
   "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
 },
 {
-  "name":"org.openxmlformats.schemas.officeDocument.x2006.customProperties.impl.CTPropertiesImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.officeDocument.x2006.customProperties.impl.PropertiesDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.impl.CTPropertiesImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.impl.PropertiesDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.CTNumLvl"
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTBodyImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTDocDefaultsImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTDocument1Impl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTNumberingImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTPImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTPPrDefaultImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTPPrGeneralImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTPPrImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTRImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTRPrDefaultImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTRPrImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTSectPrImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTSettingsImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTStyleImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTStylesImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTTextImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.DocumentDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.NumberingDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.SettingsDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
-  "name":"org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.StylesDocumentImpl",
-  "methods":[{"name":"<init>","parameterTypes":["org.apache.xmlbeans.SchemaType"] }]
-},
-{
   "name":"org.wildfly.common.lock.SpinLock",
   "fields":[{"name":"owner"}]
 },
@@ -983,15 +831,19 @@
   "fields":[{"name":"theUnsafe"}]
 },
 {
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
   "name":"sun.security.provider.MD5",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"sun.security.provider.NativePRNG",
+  "name":"sun.security.provider.SHA",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"sun.security.provider.SHA",
+  "name":"sun.security.provider.SHA2$SHA256",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {

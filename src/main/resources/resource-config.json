@@ -11,18 +11,6 @@
       "pattern":"\\QMETA-INF/services/java.nio.file.spi.FileSystemProvider\\E"
     }, 
     {
-      "pattern":"\\QMETA-INF/services/javax.imageio.spi.ImageInputStreamSpi\\E"
-    }, 
-    {
-      "pattern":"\\QMETA-INF/services/javax.imageio.spi.ImageOutputStreamSpi\\E"
-    }, 
-    {
-      "pattern":"\\QMETA-INF/services/javax.imageio.spi.ImageReaderSpi\\E"
-    }, 
-    {
-      "pattern":"\\QMETA-INF/services/javax.imageio.spi.ImageWriterSpi\\E"
-    }, 
-    {
       "pattern":"\\QMETA-INF/services/javax.xml.parsers.DocumentBuilderFactory\\E"
     }, 
     {
@@ -54,9 +42,6 @@
     }, 
     {
       "pattern":"\\Qapplication.properties\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/fontbox/cmap/Identity-H\\E"
     }, 
     {
       "pattern":"\\Qorg/apache/pdfbox/resources/afm/Courier-Bold.afm\\E"
@@ -116,112 +101,10 @@
       "pattern":"\\Qorg/apache/pdfbox/resources/ttf/LiberationSans-Regular.ttf\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctbody0f06type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctdocdefaults2ea8type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctdocument64adtype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctnumberingfdf9type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctnumlvl416ctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctpa1e2type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctppr01c0type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctpprdefaultf839type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctpprgenerald6f2type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctproperties2c18type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctproperties3f10type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctr8120type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctrpr097etype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctrprdefault5ebbtype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsectpr1123type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsettingsd6a5type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctstyle41c1type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctstyles8506type.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/cttext7f5btype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/document2bd9doctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/index.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/numbering1c4ddoctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/properties288cdoctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/propertiesee84doctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/settings9dd1doctype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/sthdrftr30catype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/poi/schemas/ooxml/system/ooxml/styles2732doctype.xsb\\E"
-    }, 
-    {
       "pattern":"\\Qorg/apache/tika/mime/tika-mimetypes.xml\\E"
     }, 
     {
       "pattern":"\\Qorg/apache/tika/parser/external/tika-external-parsers.xml\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLCONFIG/index.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/index.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/space9344attrtypetype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/spaceattribute.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/spaceb986attrtype.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLSCHEMA/index.xsb\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLTOOLS/index.xsb\\E"
     }, 
     {
       "pattern":"\\Qorg/jboss/threads/Version.properties\\E"
@@ -234,10 +117,6 @@
         "", 
         "en"
       ]
-    }, 
-    {
-      "name":"org.apache.xmlbeans.impl.regex.message",
-      "locales":[""]
     }, 
     {
       "name":"sun.awt.resources.awt",

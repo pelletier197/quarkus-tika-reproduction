@@ -1,7 +1,20 @@
 [
 {
-  "name":"java.awt.GraphicsEnvironment",
-  "methods":[{"name":"isHeadless","parameterTypes":[] }]
+  "name":"java.awt.Insets",
+  "fields":[
+    {"name":"bottom"}, 
+    {"name":"left"}, 
+    {"name":"right"}, 
+    {"name":"top"}
+  ],
+  "methods":[{"name":"<init>","parameterTypes":["int","int","int","int"] }]
+},
+{
+  "name":"java.awt.Toolkit",
+  "methods":[
+    {"name":"getDefaultToolkit","parameterTypes":[] }, 
+    {"name":"getFontMetrics","parameterTypes":["java.awt.Font"] }
+  ]
 },
 {
   "name":"java.awt.image.BufferedImage",
@@ -70,13 +83,6 @@
   "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
 },
 {
-  "name":"java.lang.System",
-  "methods":[
-    {"name":"load","parameterTypes":["java.lang.String"] }, 
-    {"name":"setProperty","parameterTypes":["java.lang.String","java.lang.String"] }
-  ]
-},
-{
   "name":"sun.awt.image.IntegerComponentRaster",
   "fields":[
     {"name":"data"}, 
@@ -85,9 +91,5 @@
     {"name":"scanlineStride"}, 
     {"name":"type"}
   ]
-},
-{
-  "name":"sun.java2d.Disposer",
-  "methods":[{"name":"addRecord","parameterTypes":["java.lang.Object","long","long"] }]
 }
 ]
