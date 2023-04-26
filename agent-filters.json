@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "excludeClasses": "org.apache.tika.parser.jdbc.**"
+    },
+    {
+      "excludeClasses": "org.apache.tika.parser.journal.**"
+    },
+    {
+      "excludeClasses": "org.apache.tika.parser.mat.**"
+    },
+    {
+      "excludeClasses": "org.apache.tika.parser.pkg.CompressorParser"
+    },
+    {
+      "excludeClasses": "org.apache.tika.parser.hwp.**"
+    },
+    {
+      "excludeClasses": "org.apache.tika.parser.geo.topic.GeoParser"
+    }
+  ]
+}
