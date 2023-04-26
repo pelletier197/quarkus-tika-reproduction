@@ -1,13 +1,22 @@
-# Tika-Quarkus
+# Tika-Quarkus - Windows issue
 
-This is a sample repository to demonstrate that a project built with Tika and Native image does not fully work. 
+This is a sample repository to demonstrate that a project built with Tika and Native image does not work on windows. 
+
+## Setup
+This project uses:
+
+- Mandrel v22.3.2.0
+- Quarkus-tika 2.0.0 
+- Quarkus 3.0.0 (CR2)
 
 ## How to reproduce
+
+> Step 1 and 2 are optional as they were already executed and the assets are already pushed. 
 
 1.First part is to build the project's JAR.
 
 ```shell
-./gradlew build -Dquarkus.package.type=uber-jar 
+./gradlew.bat build -D quarkus.package.type=uber-jar 
 ```
 
 2. Then we run Mandrel with agent enabled in order to generate the native dependencies.
@@ -20,14 +29,14 @@ Here I used an agent filter because some tika dependencies are giving troubles a
 
 This gives us what we can find in the [resources folder](./src/main/resources).
 
-Then we compile the native image.
+3. Finally we compile the native image.
 
 ```shell
-./gradlew build -Dquarkus.package.type=native
+./gradlew.bat build -D quarkus.package.type=native
 ```
 
-Then we run the output executable.
+The output error should be something like 
 
-```shell
+```
 
 ```
