@@ -16,7 +16,7 @@ val quarkusPlatformArtifactId: String by project
 val quarkusPlatformVersion: String by project
 
 dependencies {
-    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.0.0.CR2"))
+    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.0.1.Final"))
     implementation("io.quarkiverse.tika:quarkus-tika:2.0.0")
     implementation("org.jboss.logging:commons-logging-jboss-logging")
 }
